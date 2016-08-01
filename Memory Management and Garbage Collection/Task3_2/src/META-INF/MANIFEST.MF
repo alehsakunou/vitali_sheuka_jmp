@@ -1,0 +1,2 @@
+Manifest-Version: 1.0
+Main-Class: com.epam.mentoring.task3.Task3_2
