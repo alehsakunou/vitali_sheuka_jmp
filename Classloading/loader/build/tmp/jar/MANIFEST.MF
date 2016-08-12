@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: loader
+Implementation-Version: 1.0-SNAPSHOT
+Main-Class: com.epam.mentoring.task2.Application
+
