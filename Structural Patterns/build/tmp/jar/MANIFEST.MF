@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: Structural Patterns
+Implementation-Version: 1.0-SNAPSHOT
+Main-Class: com.epam.mentoring.task5.Application
+
