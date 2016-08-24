@@ -1,0 +1,2 @@
+java -jar distrib/Multithreading-1.0-SNAPSHOT.jar d:\git\vitali_sheuka_jmp\Multithreading\src\main\resources\ http://epbygomw0445.gomel.epam.com:8888/uploads.php http://epbygomw0445.gomel.epam.com:8888/uploads/ d:\bin\xampp\htdocs\downloads\
+pause

@@ -1,0 +1,29 @@
+group 'Multithreading'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+
+repositories {
+    mavenCentral()
+}
+
+tasks.withType(Jar) {
+    destinationDir = file("$rootDir/distrib")
+}
+
+jar {
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    manifest {
+        attributes("Implementation-Title": project.name,
+                "Implementation-Version": version,
+                "Main-Class": 'com.epam.mentoring.multithreading.Application'
+        )
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

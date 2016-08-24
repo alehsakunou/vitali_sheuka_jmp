@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: Multithreading
+Implementation-Version: 1.0-SNAPSHOT
+Main-Class: com.epam.mentoring.multithreading.Application
+
